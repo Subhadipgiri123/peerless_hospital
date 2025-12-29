@@ -1,0 +1,507 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sunrise_health_center</title>
+    <link rel="stylesheet" href="assetas/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assetas/js/bootstrap.bundle.min.js">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- owl carousel cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+<body>
+    <div class="top_nav text-white py-2 ">
+        <div class="container small">
+
+            <div class="d-flex d-md-none flex-row justify-content-between align-items-center gap-2">
+
+
+                <a href="tel:+919038224000"
+                    class="text-white text-decoration-none d-flex align-items-center gap-1 border-end border-white border-3 pe-4 me-2"
+                    style="min-width: 0; height: 32px;">
+                    <i id="Ambulance" class="fa-solid fa-truck-medical" style="font-size: 18px; flex-shrink: 0;"></i>
+                    <span id="num" style="font-size: 11px; white-space: nowrap; display: flex; align-items: center;">+91
+                        90382
+                        24000</span>
+                </a>
+
+                <div class="dropdown ms-auto" style="color: #193d81;">
+                    <button class="btn btn-secondary dropdown-toggle bg-white text-dark rounded-pill fw-semibold"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="padding: 3px 40px; font-size: 12px;">
+                        Location
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Kolkata</a></li>
+                        <li><a class="dropdown-item" href="#">Guwahati</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-none d-md-flex flex-wrap align-items-center gap-3">
+
+                <div class="d-flex align-items-center gap-3 border-end border-white pe-3 border-3">
+                    <a href="tel:03340111222" class="text-white text-decoration-none">
+                        <span><i class="fa-solid fa-phone-volume"></i> 033 4011 1222</span>
+                    </a>
+                    <a href="mailto:ph.enquiry@peerlesshospital.com" class="text-white text-decoration-none">
+                        <span><i class="fa-regular fa-envelope"></i> ph.enquiry@peerlesshospital.com</span>
+                    </a>
+                </div>
+
+                <div class="d-flex align-items-center gap-3 flex-grow-1 flex-md-grow-0">
+                    <div class="align-items-center border-end border-white pe-3 border-3 emergency">
+                        <a href="tel:+918981080008" class="text-white text-decoration-none">
+                            <span><strong>Emergency:</strong> +91 89810 80008</span>
+                        </a>
+                    </div>
+                    <a href="tel:+919038224000" class="text-white text-decoration-none">
+                        <span><i class="fa-solid fa-truck-medical"></i> +91 90382 24000 / +91 90382 25000</span>
+                    </a>
+                </div>
+
+                <div class="dropdown align-items-end ms-auto" style="color: #193d81;">
+                    <button
+                        class="btn btn-secondary dropdown-toggle bg-white text-dark rounded-pill px-5 py-1 fw-semibold"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Location
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Kolkata</a></li>
+                        <li><a class="dropdown-item" href="#">Guwahati</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container py-1">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.webp" alt="Logo" width="230" height="35"
+            class="d-inline-block align-text-top main_logo">
+        </a>
+        <button class="togeler_focus  navbar-toggler" style="border: none; padding: 6px 8px; border-radius: 5px;"
+          type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav_item collapse navbar-collapse ms-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="about_us_1.html">Company Overview</a></li>
+                <li><a class="dropdown-item" href="about_us_2.html">Misson & Vision</a></li>
+                <li><a class="dropdown-item" href="about_us_3.html">Career</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Patients
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="Patient_Guide.html">Patient Guide</a></li>
+                <li><a class="dropdown-item" href="International_Patients.html">International Patients</a></li>
+                <li><a class="dropdown-item" href="Testimonials.html">Testimonials</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="our_doctors.html">Our Doctors</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Departments
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink" >
+                <li><a class="dropdown-item" href="Anesthesiology.html">Anesthesiology</a></li>
+                <li><a class="dropdown-item" href="Cardiology.html">Cardiology</a></li>
+                <li><a class="dropdown-item" href="Paediatrics and Neonatology.html">Paediatrics and Neonatology </a></li>
+                <li><a class="dropdown-item" href="Radiology.html">Radiology  </a></li>
+                <li><a class="dropdown-item" href="Dietetics.html">Dietetics  </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="our_clinic.html">Our Clinics</a></li>
+                <li><a class="dropdown-item" href="Day_Care_Units.html">Day Care Units</a></li>
+                <li><a class="dropdown-item" href="Operation_Theatre.html">Modular Operation Theatre</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Academics
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="Medical .html">Medical</a></li>
+                <li><a class="dropdown-item" href="Paramedical.html"> Paramedical </a></li>
+                <li><a class="dropdown-item" href="Hospital_Administration.html">Hospital Administration</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="galary.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blogs
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="about-us position-relative mb-4">
+        <div class="">
+            <img src="images/62th.webp" style="width: 100%; height: 250px; object-fit: cover;" alt="About Us Banner">
+        </div>
+
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0) 100%);">
+
+            <div class="container ps-5">
+                <div class="text-white">
+                    <h1 class="fw-bold m-0" style="font-size: 1.6rem;">Gallery
+                    </h1>
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">
+                                <a href="index.html" class="text-white text-decoration-none">Home /</a>
+                            </li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">
+                                Gallery
+
+
+                            </li>
+                            
+                        </ol>
+                    </nav>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="premium-gallery py-5" style="background: #f8f9fa;">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h6 class="text-danger fw-bold text-uppercase mb-2" style="letter-spacing: 3px;">Gallery</h6>
+            <h2 class="display-5 fw-bold" style="color: #162b60;">Our World-Class Facilities</h2>
+            <div class="mx-auto mt-2" style="width: 50px; height: 3px; background: #dc3545;"></div>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-center gap-2 mb-5">
+            <button class="gallery-nav active" data-filter="all">All Photos (10)</button>
+            <button class="gallery-nav" data-filter="infra">Infrastructure</button>
+            <button class="gallery-nav" data-filter="medical">Medical Tech</button>
+            <button class="gallery-nav" data-filter="care">Patient Care</button>
+        </div>
+
+        <div class="row g-4" id="gallery-grid">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="infra">
+                <div class="premium-box" onclick="openLightbox('images/63th.jpg', 'Main Building Entrance')">
+                    <img src="images/63th.jpg" alt="Building">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Infrastructure</span>
+                        <h5>Main Building</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="medical">
+                <div class="premium-box" onclick="openLightbox('images/64th.jpg', 'Modular OT')">
+                    <img src="images/64th.jpg" alt="OT">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Surgery</span>
+                        <h5>Modular OT</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="infra">
+                <div class="premium-box" onclick="openLightbox('images/65th.webp', 'Reception Area')">
+                    <img src="images/65th.webp" alt="Reception">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Infrastructure</span>
+                        <h5>Help Desk</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="medical">
+                <div class="premium-box" onclick="openLightbox('images/66th.jpg', 'Advanced ICU')">
+                    <img src="images/66th.jpg" alt="ICU">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Critical Care</span>
+                        <h5>Advanced ICU</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="care">
+                <div class="premium-box" onclick="openLightbox('images/67th.jpg', 'Patient Ward')">
+                    <img src="images/67th.jpg" alt="Ward">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Patient Care</span>
+                        <h5>Deluxe Ward</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="medical">
+                <div class="premium-box" onclick="openLightbox('images/68th.webp', 'Pathology Lab')">
+                    <img src="images/68th.webp" alt="Lab">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Medical Tech</span>
+                        <h5>Pathology Lab</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="infra">
+                <div class="premium-box" onclick="openLightbox('images/69th.avif', 'Pharmacy')">
+                    <img src="images/69th.avif" alt="Pharmacy">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Infrastructure</span>
+                        <h5>24/7 Pharmacy</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="medical">
+                <div class="premium-box" onclick="openLightbox('images/70th.jpg', 'Dialysis Unit')">
+                    <img src="images/70th.jpg" alt="Dialysis">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Medical Tech</span>
+                        <h5>Dialysis Unit</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="infra">
+                <div class="premium-box" onclick="openLightbox('images/71.webp', 'Emergency Entrance')">
+                    <img src="images/71.webp" alt="Emergency">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Infrastructure</span>
+                        <h5>Emergency Care</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="care">
+                <div class="premium-box" onclick="openLightbox('images/72th.jpg', 'Physiotherapy')">
+                    <img src="images/72th.jpg" alt="Physiotherapy">
+                    <div class="premium-overlay">
+                        <span class="badge bg-danger mb-2">Patient Care</span>
+                        <h5>Physiotherapy</h5>
+                        <i class="fa-solid fa-expand-alt mt-2"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="infra">
+    <div class="premium-box" onclick="openLightbox('images/73th.jpg', 'Patient Waiting Lounge')">
+        <img src="images/73th.jpg" alt="Waiting Area">
+        <div class="premium-overlay">
+            <span class="badge bg-danger mb-2">Infrastructure</span>
+            <h5>Waiting Lounge</h5>
+            <i class="fa-solid fa-expand-alt mt-2"></i>
+        </div>
+    </div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3 gallery-item" data-category="medical">
+    <div class="premium-box" onclick="openLightbox('images/74th.jpg', 'Advanced Radiology Center')">
+        <img src="images/74th.jpg" alt="Radiology">
+        <div class="premium-overlay">
+            <span class="badge bg-danger mb-2">Medical Tech</span>
+            <h5>Radiology Center</h5>
+            <i class="fa-solid fa-expand-alt mt-2"></i>
+        </div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+    <section class="footer">
+        <div class=" main_footer d-flex ">
+            <div class="footer_child_1 pb-5" style="width: 75%; height: auto; background-color: #162b60;">
+                <div class="  ms-5 " style="display: flex; gap: 150px;">
+                    <div class="footer_child_1_1">
+                        <h3 class="">Patients Info</h3>
+                        <hr class="hr_footer ">
+                        <ul type="none" class="footer_ul">
+                            <li><a href="#">Find a Doctor</a></li>
+                            <li><a href="#">Inpatient Payment</a></li>
+                            <li><a href="#">Reports Downloadt</a></li>
+                            <li><a href="#">Enquiry</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">International Patient</a></li>
+                            <li><a href="#">Organ Transplant Compliance</a></li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="footer_child_1_1">
+                        <h3>Other Links</h3>
+                        <hr class="hr_footer">
+                        <ul type="none" class="footer_ul">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Corporate Tie-up</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Appointment Request</a></li>
+                            <li><a href="#">News & Media</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="footer_child_1_1 ">
+                        <h3>Resources </h3>
+                        <hr class="hr_footer">
+                        <ul type="none" class="footer_ul">
+                            <li><a href="#">Bio Medical Waste Report</a></li>
+                            <li><a href="#">Stent Prices</a></li>
+                            <li><a href="#">Knee Implant Price</a></li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="embed-map-responsive">
+                    <div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=200&height=320&hl=en&q=Peerless%20hospital%20kolkata&t=p&z=10&ie=UTF8&iwloc=B&output=embed"></iframe><a
+                            href="https://sprunkiretake.net"
+                            style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">Sprunki</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%; padding: 15px; text-align: center; background-color: #1c2b47;">
+            <span style="color: white; font-size: 18px;">Copyright© 2025 Peerless Hospital</span>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+       
+/**
+ * Advanced Category Filtering with Smooth Animations
+ * Adds a staggered entrance effect to gallery items
+ */
+document.querySelectorAll('.gallery-nav').forEach(button => {
+    button.addEventListener('click', function() {
+        // Toggle Active UI
+        document.querySelectorAll('.gallery-nav').forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+
+        const filter = this.getAttribute('data-filter');
+        const items = document.querySelectorAll('.gallery-item');
+
+        items.forEach((item, index) => {
+            // Reset animations
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(20px)';
+            
+            if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                item.style.display = 'block';
+                
+                // Staggered Entrance Effect (Professional Touch)
+                setTimeout(() => {
+                    item.style.transition = 'all 0.5s ease';
+                    item.style.opacity = '1';
+                    item.style.transform = 'translateY(0)';
+                }, index * 50); // Delay each item by 50ms
+            } else {
+                item.style.display = 'none';
+            }
+        });
+    });
+});
+
+/**
+ * Enterprise-Grade Lightbox Function
+ * Features: High-res preview, Title, and Image Download
+ */
+function openLightbox(imgSrc, title) {
+    Swal.fire({
+        title: `<span style="color: #162b60; font-family: 'Georgia', serif;">${title}</span>`,
+        imageUrl: imgSrc,
+        imageAlt: title,
+        showConfirmButton: true,
+        confirmButtonText: '<i class="fa-solid fa-download me-2"></i> Download Image',
+        confirmButtonColor: '#dc3545', // Matches your theme red
+        showCloseButton: true,
+        width: 'auto',
+        background: '#fff',
+        backdrop: `rgba(22, 43, 96, 0.7)`, // Darker premium backdrop
+        showClass: {
+            popup: 'animate__animated animate__zoomIn' // Requires Animate.css or standard transitions
+        },
+        hideClass: {
+            popup: 'animate__animated animate__zoomOut'
+        }
+    }).then((result) => {
+        // Professional Function: Trigger Image Download
+        if (result.isConfirmed) {
+            const link = document.createElement('a');
+            link.href = imgSrc;
+            link.download = title.replace(/\s+/g, '_') + '.jpg';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    });
+}
+    </script>
+</body>
+
+</html>

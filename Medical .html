@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sunrise_health_center</title>
+    <link rel="stylesheet" href="assetas/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assetas/js/bootstrap.bundle.min.js">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- owl carousel cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+<body>
+    <div class="top_nav text-white py-2 ">
+        <div class="container small">
+
+            <div class="d-flex d-md-none flex-row justify-content-between align-items-center gap-2">
+
+
+                <a href="tel:+919038224000"
+                    class="text-white text-decoration-none d-flex align-items-center gap-1 border-end border-white border-3 pe-4 me-2"
+                    style="min-width: 0; height: 32px;">
+                    <i id="Ambulance" class="fa-solid fa-truck-medical" style="font-size: 18px; flex-shrink: 0;"></i>
+                    <span id="num" style="font-size: 11px; white-space: nowrap; display: flex; align-items: center;">+91
+                        90382
+                        24000</span>
+                </a>
+
+                <div class="dropdown ms-auto" style="color: #193d81;">
+                    <button class="btn btn-secondary dropdown-toggle bg-white text-dark rounded-pill fw-semibold"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="padding: 3px 40px; font-size: 12px;">
+                        Location
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Kolkata</a></li>
+                        <li><a class="dropdown-item" href="#">Guwahati</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-none d-md-flex flex-wrap align-items-center gap-3">
+
+                <div class="d-flex align-items-center gap-3 border-end border-white pe-3 border-3">
+                    <a href="tel:03340111222" class="text-white text-decoration-none">
+                        <span><i class="fa-solid fa-phone-volume"></i> 033 4011 1222</span>
+                    </a>
+                    <a href="mailto:ph.enquiry@peerlesshospital.com" class="text-white text-decoration-none">
+                        <span><i class="fa-regular fa-envelope"></i> ph.enquiry@peerlesshospital.com</span>
+                    </a>
+                </div>
+
+                <div class="d-flex align-items-center gap-3 flex-grow-1 flex-md-grow-0">
+                    <div class="align-items-center border-end border-white pe-3 border-3 emergency">
+                        <a href="tel:+918981080008" class="text-white text-decoration-none">
+                            <span><strong>Emergency:</strong> +91 89810 80008</span>
+                        </a>
+                    </div>
+                    <a href="tel:+919038224000" class="text-white text-decoration-none">
+                        <span><i class="fa-solid fa-truck-medical"></i> +91 90382 24000 / +91 90382 25000</span>
+                    </a>
+                </div>
+
+                <div class="dropdown align-items-end ms-auto" style="color: #193d81;">
+                    <button
+                        class="btn btn-secondary dropdown-toggle bg-white text-dark rounded-pill px-5 py-1 fw-semibold"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Location
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Kolkata</a></li>
+                        <li><a class="dropdown-item" href="#">Guwahati</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container py-1">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.webp" alt="Logo" width="230" height="35"
+            class="d-inline-block align-text-top main_logo">
+        </a>
+        <button class="togeler_focus  navbar-toggler" style="border: none; padding: 6px 8px; border-radius: 5px;"
+          type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav_item collapse navbar-collapse ms-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="about_us_1.html">Company Overview</a></li>
+                <li><a class="dropdown-item" href="about_us_2.html">Misson & Vision</a></li>
+                <li><a class="dropdown-item" href="about_us_3.html">Career</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Patients
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="Patient_Guide.html">Patient Guide</a></li>
+                <li><a class="dropdown-item" href="International_Patients.html">International Patients</a></li>
+                <li><a class="dropdown-item" href="Testimonials.html">Testimonials</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="our_doctors.html">Our Doctors</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Departments
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink" >
+                <li><a class="dropdown-item" href="Anesthesiology.html">Anesthesiology</a></li>
+                <li><a class="dropdown-item" href="Cardiology.html">Cardiology</a></li>
+                <li><a class="dropdown-item" href="Paediatrics and Neonatology.html">Paediatrics and Neonatology </a></li>
+                <li><a class="dropdown-item" href="Radiology.html">Radiology  </a></li>
+                <li><a class="dropdown-item" href="Dietetics.html">Dietetics  </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="our_clinic.html">Our Clinics</a></li>
+                <li><a class="dropdown-item" href="Day_Care_Units.html">Day Care Units</a></li>
+                <li><a class="dropdown-item" href="Operation_Theatre.html">Modular Operation Theatre</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Academics
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="Medical .html">Medical</a></li>
+                <li><a class="dropdown-item" href="Paramedical.html"> Paramedical </a></li>
+                <li><a class="dropdown-item" href="Hospital_Administration.html">Hospital Administration</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="galary.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blogs
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="about-us position-relative mb-5">
+        <div class="">
+            <img src="images/59th.webp" style="width: 100%; height: 250px; object-fit: cover;" alt="About Us Banner">
+        </div>
+
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0) 100%);">
+
+            <div class="container ps-5">
+                <div class="text-white">
+                    <h1 class="fw-bold m-0" style="font-size: 1.6rem;">Medical Academic Course
+                    </h1>
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">
+                                <a href="index.html" class="text-white text-decoration-none">Home /</a>
+                            </li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">
+                                Medical Academic Course
+
+                            </li>
+                        </ol>
+                    </nav>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="academics-section py-4 bg-white">
+        <div class="container">
+            <div class="d-flex gap-1 align-items-center mb-2">
+                <p class="fw-semibold fs-5 text-danger mb-0">Medical</p>
+                <span class="text-danger fs-5">----●</span>
+            </div>
+
+            <h3 class="fw-bold mb-1" style="color: #193d81; font-family: Arial, Helvetica, sans-serif;">
+                Medical Academic Course
+            </h3>
+            <h4 class="text-danger fw-bold fs-5 mt-3 mb-3">National Board of Examinations in Medical Sciences (NBE), New
+                Delhi Courses :</h4>
+            <p style="color: rgb(84, 81, 81); line-height: 2;">National Board of Examinations in Medical Sciences
+                (NBEMS) has accredited Peerless Hospital & B. K. Roy
+                Research Centre for Diplomate of National Board (DNB) and Doctorate of National Board (DrNB) training
+                programme. Presently accreditation has been given for the following courses:</p>
+
+            <div class="row g-4">
+
+                <div class="col-lg-7">
+                    <h5 class="fw-bold mb-3" style="color: #b91405;">DNB</h5>
+                    <div class="table-responsive shadow-sm">
+                        <table class="table table-bordered custom-table m-0">
+                            <thead>
+                                <tr style="border: none;">
+                                    <th
+                                        style="background-color: #162b60; color: rgb(249, 246, 246); border: 1px solid rgb(98, 94, 94);">
+                                        Department</th>
+                                    <th
+                                        style="background-color: #162b60; color: white; border: 1px solid rgb(98, 94, 94);">
+                                        Primary No. of Seats</th>
+                                    <th
+                                        style="background-color: #162b60; color: white; border: 1px solid rgb(98, 94, 94);">
+                                        Secondary No. of Seats</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Anesthesiology</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>Emergency Medicine</td>
+                                    <td>2</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Gastroenterology</td>
+                                    <td>4</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>General Medicine</td>
+                                    <td>2</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>General Surgery</td>
+                                    <td>1</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>Orthopedics</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Pediatrics</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>Pathology</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <td>Radio Diagnosis</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <button class="btn mt-4 px-5 py-2 fw-semibold text-white" style="background-color: #efba0c;">Read
+                        More</button>
+                </div>
+
+                <div class="col-lg-5">
+                    <h5 class="fw-bold mb-3" style="color: #b91405;">DMRD</h5>
+                    <div class="table-responsive shadow-sm mb-5">
+                        <table class="table table-bordered custom-table m-0">
+                            <thead style="background-color: #162b60; color: white;">
+                                <tr>
+                                    <th
+                                        style="background-color: #162b60; color: rgb(249, 246, 246); border: 1px solid rgb(98, 94, 94);">
+                                        Name of Course</th>
+                                    <th
+                                        style="background-color: #162b60; color: rgb(249, 246, 246); border: 1px solid rgb(98, 94, 94);">
+                                        No. of Seats</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Diploma in Medical Radio Diagnosis</td>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <h5 class="fw-bold mb-3" style="color: #a33b32;">DrNB</h5>
+                    <div class="table-responsive shadow-sm">
+                        <table class="table table-bordered custom-table m-0">
+                            <thead style="background-color: #162b60; color: white;">
+                                <tr>
+                                    <th
+                                        style="background-color: #162b60; color: rgb(249, 246, 246); border: 1px solid rgb(98, 94, 94);">
+                                        Name of Course</th>
+                                    <th
+                                        style="background-color: #162b60; color: rgb(249, 246, 246); border: 1px solid rgb(98, 94, 94);">
+                                        No. of Seats</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Medical Gastroenterology</td>
+                                    <td>4</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+            </div>
+            <hr class="w-100 mt-4">
+            <h5 class="text-danger fw-bold mt-3">MRCP (Ireland) Examination Centre :</h5>
+            <p style="color: rgb(83, 80, 80); text-align: justify;">Peerless Hospital & B K Roy Research Centre is a
+                recognized Examination Centre of The Royal College of Physician (Ireland) for MRCP (Ireland) clinical
+                examination in General Medicine. MRCP (Ireland) both theory and clinical examination were first held at
+                Peerless Hospital in 2005.</p>
+            <button class="btn mt-2 px-5 py-2 fw-semibold text-white" style="background-color: #efba0c;">Read
+                More</button>
+            <hr class="w-100 mt-4">
+            <h5 class="text-danger fw-bold mt-3">UK Training Fellowships in Medicine :</h5>
+            <p style="color: rgb(83, 80, 80); text-align: justify;">Royal College of Physicians (RCP), in partnership
+                with Peerless Hospital, is now accepting applications of interest to join the Medical Training
+                Initiative (MTI) Scheme. The MTI scheme offers the opportunity of 2 years clinical training and
+                experience in UK National Health Service (NHS) hospital trusts for a small number of suitably qualified
+                international medical graduates. If appointed to a position after joining the scheme, doctors will be
+                directly contracted to an NHS Trust and be remunerated at standard UK rates. Positions are currently
+                available in a number of hospitals across the UK at both core medical and specialty training
+                grades.<br><br>
+
+                For those appointed, the RCP is able to assist with facilitating professional registration with the
+                General Medical Council and a Tier 5 visa for the UK under the Government Authorised Exchange Category.
+                This visa category is restricted to a maximum of 2 years, with no return to work in the UK under the
+                same category for a further period of 5 years.</p>
+            <button class="btn mt-2 px-5 py-2 fw-semibold text-white" style="background-color: #efba0c;">Read
+                More</button>
+
+            <hr class="w-100 mt-4">
+            <h5 class="text-danger fw-bold mt-3">Indo Australian Fellowship in Critical Care Medicine :</h5>
+            <p style="color: rgb(83, 80, 80); text-align: justify;">We have a tie-up with Critical Care Education
+                Foundation, Mumbai, for fellowship in critical care medicine. Candidates having MBBS degree from a
+                recognized Indian University and preferably with one year critical care experience in
+                ICCU/ITU/NICU/NITU/PICU are eligible for this fellowship certificate. It is a hands on training course
+                of two years duration.</p>
+            <button class="btn mt-2 px-5 py-2 fw-semibold text-white" style="background-color: #efba0c;">Read
+                More</button>
+            <hr class="w-100 mt-4">
+            <h5 class="text-danger fw-bold mt-3">Masters in Emergency Medicine Course :</h5>
+            <p style="color: rgb(83, 80, 80); text-align: justify;">Three Year Post Graduate Program in Emergency
+                Medicine Peerless Hospital & B. K. Roy. Research Center and The Medical Faculty Associates at The George
+                Washington University Washington, D.C.<br><br>
+
+                Peerless Hospital & B. K. Roy Research Centre proudly opens the applications for admission in the
+                twelfth (12th) batch of 3 year Post Graduate Masters Program in Emergency Medicine (MEM), conducted in
+                partnership with The Ronald Reagan Institute of Emergency Medicine at The George Washington University
+                Medical Center, who are dedicated to saving lives by improving Emergency care globally.<br><br>
+
+                Peerless Hospital & B. K. Roy Research Centre is committed to improve the state of Emergency Medical
+                Services in our country, which requires properly trained personnel in this field. This comprehensive
+                Masters program will help us develop Emergency physicians who will be the pioneers in this developing
+                specialty. We welcome all doctors who are interested to make a career in the field of Emergency Medicine
+                to join this course.
+
+            </p>
+            <button class="btn mt-2 px-5 py-2 fw-semibold text-white" style="background-color: #efba0c;">Read
+                More</button>
+
+            <hr class="w-100 mt-4">
+            <h5 class="text-danger fw-bold mt-3">Library :</h5>
+            <p style="color: rgb(83, 80, 80); text-align: justify;">Peerless Hospital is having an exemplary Library
+                facility for the medical students with 24/7 8 a.m. - 8 p.m. working hours. In addition to Central
+                Library, Departmental Library is also accessible by the medical students.<br><br>
+
+                KOHA software is being used in the library setting to access the various books published by various
+                authors and publishers. It is flexible and integrated software which enables the students to find
+                information related to the books in the wink of an eye. It is multilingual and translatable, and has got
+                powerful searching and enhanced catalogue. It is built using the library standards and requirement and
+                is an open source and free software.<br><br>
+
+                Adequate Number of National and International Journals are available (Print and Online) for the students
+                of all academic courses conducting at Peerless Hospital. This student friendly Library is also having
+                more than 5000 text and referral books for all students enrolled for academic courses at Peerless
+                Hospital.<br><br>
+
+            </p>
+        </div>
+    </section>
+
+
+
+
+    <section class="footer">
+        <div class=" main_footer d-flex ">
+            <div class="footer_child_1 pb-5" style="width: 75%; height: auto; background-color: #162b60;">
+                <div class="  ms-5 " style="display: flex; gap: 150px;">
+                    <div class="footer_child_1_1">
+                        <h3 class="">Patients Info</h3>
+                        <hr class="hr_footer ">
+                        <ul type="none" class="footer_ul">
+                            <li><a href="#">Find a Doctor</a></li>
+                            <li><a href="#">Inpatient Payment</a></li>
+                            <li><a href="#">Reports Downloadt</a></li>
+                            <li><a href="#">Enquiry</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">International Patient</a></li>
+                            <li><a href="#">Organ Transplant Compliance</a></li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="footer_child_1_1">
+                        <h3>Other Links</h3>
+                        <hr class="hr_footer">
+                        <ul type="none" class="footer_ul">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Corporate Tie-up</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Appointment Request</a></li>
+                            <li><a href="#">News & Media</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="footer_child_1_1 ">
+                        <h3>Resources </h3>
+                        <hr class="hr_footer">
+                        <ul type="none" class="footer_ul">
+                            <li><a href="#">Bio Medical Waste Report</a></li>
+                            <li><a href="#">Stent Prices</a></li>
+                            <li><a href="#">Knee Implant Price</a></li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="embed-map-responsive">
+                    <div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=200&height=320&hl=en&q=Peerless%20hospital%20kolkata&t=p&z=10&ie=UTF8&iwloc=B&output=embed"></iframe><a
+                            href="https://sprunkiretake.net"
+                            style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">Sprunki</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%; padding: 15px; text-align: center; background-color: #1c2b47;">
+            <span style="color: white; font-size: 18px;">Copyright© 2025 Peerless Hospital</span>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+
+
+    </script>
+</body>
+
+</html>

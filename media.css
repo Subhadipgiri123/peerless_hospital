@@ -1,0 +1,1268 @@
+@media (max-width: 767px) {
+ .img_sli{
+  height: 106px;
+ }
+ .main_logo{
+  width: 180px;
+  height: 28px;
+ }
+ .update_section .text-center {
+    width: 40% !important;
+  }
+
+
+ 
+  /* 1. Force the Update button and Marquee container to the same height */
+  .update_section .move_text {
+    height: 35px !important;
+    overflow: hidden;
+  }
+
+  .update_section .update {
+    height: 35px !important;    
+    width: 25% !important;
+    font-size: 13px !important;
+    padding: 0 !important;       
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal !important;
+  }
+
+ 
+  marquee {
+    height: 35px !important;
+    padding: 0 !important;       
+    display: flex;
+    align-items: center;
+  }
+
+ 
+  .marquee_items div {
+    font-size: 12px !important;
+    line-height: 35px !important;
+  }
+  .simple_process .container {
+    padding-left: 35px !important;  
+    padding-right: 35px !important; 
+    flex-direction: column !important;
+  }
+
+
+  .simple_process h2 {
+    font-size: 18px !important; 
+    text-align: center;
+  }
+
+  .simple_process .fw-semibold.fs-5 {
+    font-size: 14px !important; 
+  }
+
+ 
+  .simple_process .card-body span.fs-5 {
+    font-size: 15px !important;
+  }
+
+  .simple_process .card-body p {
+    font-size: 12px !important; 
+    line-height: 1.4;
+  }
+
+  
+  .category {
+    flex-direction: column !important;
+    width: 100% !important;
+    gap: 15px !important;
+  }
+
+  .simple_process .card {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  .Enquire_now, .Enquire_now .card {
+    width: 100% !important;
+  }
+  .Enquire_now {
+    width: 100% !important;
+    margin-top: 30px !important; 
+  }
+
+  
+  .Enquire_now .card {
+    width: 100% !important; 
+    height: auto !important;
+  }
+
+
+  .Enquire_now h4 {
+    font-size: 18px !important;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .Enquire_now .card-text {
+    font-size: 13px !important;
+    line-height: 1.5;
+  }
+
+ 
+  .Enquire_now .fs-6, 
+  .Enquire_now span {
+    font-size: 13px !important;
+  }
+
+ 
+  .Enquire_now .d-flex.gap-2 {
+    justify-content: center !important;
+  }
+  .modal-dialog {
+    margin: 10px !important; 
+    max-width: calc(100% - 20px) !important;
+  }
+
+ 
+  .modal-content {
+    border-radius: 12px !important;
+    padding: 10px !important;
+  }
+
+  .modal-header .modal-title {
+    font-size: 20px !important; 
+  }
+
+ 
+  .modal-body .mb-0 {
+    margin-bottom: 8px !important;
+  }
+
+ 
+  .modal-body .form-control {
+    font-size: 14px !important;
+    padding: 10px !important;
+    height: auto !important;
+  }
+
+
+  .modal-footer .btn-primary {
+    width: 80% !important; 
+    font-size: 16px !important;
+    padding: 10px !important;
+    
+    position: relative !important; 
+    bottom: 0 !important;
+    left: 0 !important;
+    transform: none !important;
+    margin: 10px auto !important;
+  }
+  #modalEnquiryForm .mb-0 {
+    margin-bottom: 5px !important; 
+  }
+
+ 
+  #modalEnquiryForm .col-form-label {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    display: none; 
+  }
+
+ 
+  #modalEnquiryForm .form-control {
+    margin-top: 2px !important;
+    padding: 6px 10px !important;
+    font-size: 13px !important;
+  }
+  .modal-footer {
+    display: flex !important;
+    flex-direction: row !important; 
+    justify-content: center !important;
+    gap: 10px !important; 
+    padding: 10px !important;
+    height: auto !important; 
+  }
+
+  
+  .modal-footer .btn {
+    width: auto !important; 
+    font-size: 13px !important; 
+    padding: 6px 15px !important; 
+    border-radius: 8px !important;
+  }
+
+ 
+  .modal-footer #modalSubmitBtn, 
+  .modal-footer .btn-primary {
+    position: static !important; 
+    transform: none !important; 
+    margin: 0 !important;
+    background-color: #193D81 !important;
+  }
+
+  
+  .modal-footer .btn-secondary {
+    background-color: #6c757d !important;
+    margin: 0 !important;
+  }
+  .simple_process .d-flex.gap-2 {
+    justify-content: center !important; 
+    margin-bottom: 5px !important; 
+  }
+
+  .simple_process .fw-semibold.fs-5 {
+    font-size: 14px !important; 
+    margin-bottom: 0 !important;
+  }
+
+  
+  .simple_process h2 {
+    font-size: 18px !important; 
+    text-align: center !important;
+    margin-bottom: 20px !important;
+    font-weight: 700 !important;
+  }
+
+ 
+  .Enquire_now .d-flex.gap-2 {
+    justify-content: center !important;
+    margin-bottom: 5px !important;
+  }
+
+  .Enquire_now h4 {
+    font-size: 16px !important;
+    text-align: center !important;
+    margin-top: 10px !important;
+  }
+.simple_process + section .container {
+    margin-top: 0 !important; 
+    padding-top: 0 !important; 
+  }
+  section:has(.container.my-4) .container {
+    flex-direction: column !important;
+    gap: 20px !important;
+    padding-left: 35px !important; /* Consistent with your other sections */
+    padding-right: 35px !important;
+  }
+
+  /* 2. Fix the Welcome Card width and text */
+  section:has(.container.my-4) .card {
+    width: 100% !important; /* Overrides 24rem */
+    text-align: center;
+  }
+
+  section:has(.container.my-4) .card-body .d-flex {
+    justify-content: center !important; /* Centers 'Welcome to sunrise' */
+  }
+
+  section:has(.container.my-4) h2.card-title {
+    font-size: 18px !important; /* Smaller, cleaner heading */
+    margin-bottom: 20px !important;
+  }
+
+  /* 3. Make the description text full width */
+  section:has(.container.my-4) div[style*="width: 60%"] {
+    width: 100% !important; /* Overrides inline 60% width */
+  }
+
+  section:has(.container.my-4) p {
+    font-size: 13px !important; /* Smaller text for mobile readability */
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  /* 4. Center the 'Read More' button */
+  section:has(.container.my-4) .btn {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+  }
+  section:has(.container.my-4) {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* 2. Reduce the padding and margin of the internal container */
+  section:has(.container.my-4) .container.my-4 {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    gap: 10px !important; /* Reduces the gap between card and text */
+  }
+
+  /* 3. Tighten the spacing inside the '32 Years' card */
+  section:has(.container.my-4) .card-body {
+    padding: 10px !important;
+  }
+
+  section:has(.container.my-4) h2.card-title {
+    margin-bottom: 10px !important; /* Reduces gap above 'Read More' button */
+  }
+  section:has(.container.my-4) .btn-primary {
+    height: 32px !important;       
+    padding: 0px 20px !important;  
+    font-size: 13px !important;    
+    padding-top: 4px !important;   
+    width: fit-content !important; 
+    display: inline-block !important;
+  }
+  section:has(.container.my-4) .container {
+    padding-left: 15px !important;  /* Reduced from 35px */
+    padding-right: 15px !important; /* Reduced from 35px */
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Ensure the text and card don't have extra margins pushing them in */
+  section:has(.container.my-4) .card,
+  section:has(.container.my-4) div[style*="width: 60%"] {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100% !important;
+  }
+  .simple_process .container {
+    padding-left: 12px !important;  /* Minimum safe gap for phone edges */
+    padding-right: 12px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* 2. Make the card group take full width */
+  .category {
+    gap: 10px !important; /* Smaller gap between the stacked cards */
+    width: 100% !important;
+  }
+
+  /* 3. Force the process cards to fill the screen width */
+  .simple_process .card {
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+ 
+  .Enquire_now {
+    width: 100% !important;
+    margin-top: 20px !important;
+  }
+
+   .international-facilities .d-flex.gap-4 {
+    flex-direction: column;
+  }
+
+  /* Image full width */
+  .international-facilities img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  /* Facility boxes stack */
+  .international-facilities .d-flex.my-4 {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  /* Each card full width */
+  .international-facilities .d-flex[style*="background-color"] {
+    width: 100%;
+  }
+
+  /* Reduce text size for mobile */
+  .international-facilities h2 {
+    font-size: 22px;
+  }
+
+  .international-facilities p,
+  .international-facilities div[style*="font-size: 22px"] {
+    font-size: 16px !important;
+  }
+
+  /* Helpdesk box spacing */
+  .international-facilities .mb-3 {
+    margin-top: 20px;
+  }
+
+  /* Button center */
+  .international-facilities .btn {
+    display: block;
+    width: fit-content;
+    margin: 20px auto 0;
+  }
+  .international-facilities .container {
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+  }
+
+  /* Heading sizes */
+  .international-facilities h2 {
+    font-size: 20px !important;
+    margin-bottom: 12px !important;
+  }
+
+  .international-facilities .fw-semibold.fs-5 {
+    font-size: 14px !important;
+  }
+
+  /* Facility cards */
+  .international-facilities .d-flex[style*="background-color"] {
+    padding: 10px !important;
+    border-radius: 8px !important;
+  }
+
+  /* Facility text */
+  .international-facilities div[style*="font-size: 22px"] {
+    font-size: 15px !important;
+    line-height: 1.3;
+    padding-right: 0 !important;
+  }
+
+  /* Icon spacing */
+  .international-facilities .css-sprite-checkup-icn,
+  .international-facilities .css-sprite-traveldesk,
+  .international-facilities .css-sprite-pickup-dropicn,
+  .international-facilities .css-sprite-relationshi-managers {
+    transform: scale(0.8);
+    margin-top: 6px !important;
+  }
+
+  /* Reduce gap between blocks */
+  .international-facilities .d-flex.gap-4 {
+    gap: 16px !important;
+  }
+
+  /* Helpdesk box */
+  .international-facilities .mb-3[style*="border"] {
+    padding: 8px 12px 4px 12px !important;
+  }
+
+  .international-facilities .mb-3[style*="border"] div {
+    font-size: 16px !important;
+  }
+
+  .international-facilities .mb-3[style*="border"] p {
+    font-size: 14px !important;
+  }
+
+  /* Button size */
+  .international-facilities .btn {
+    height: 34px !important;
+    font-size: 14px !important;
+    padding: 4px 20px !important;
+  }
+  .international-facilities {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  /* Middle four boxes – make them bigger */
+  .international-facilities .d-flex[style*="background-color"] {
+    padding: 14px !important;          /* bigger box */
+    margin-top: 12px !important;       /* top gap */
+    margin-bottom: 12px !important;    /* bottom gap */
+    border-radius: 10px !important;
+  }
+
+  /* Increase text size inside boxes */
+  .international-facilities
+  .d-flex[style*="background-color"] div[style*="font-size"] {
+    font-size: 16px !important;
+    line-height: 1.4;
+  }
+
+  /* Icons slightly bigger */
+  .international-facilities .css-sprite-checkup-icn,
+  .international-facilities .css-sprite-traveldesk,
+  .international-facilities .css-sprite-pickup-dropicn,
+  .international-facilities .css-sprite-relationshi-managers {
+    transform: scale(0.9);
+    margin-top: 8px !important;
+  }
+
+  /* Gap between left & right columns */
+  .international-facilities .d-flex.gap-4 {
+    gap: 20px !important;
+  }
+   .international-facilities .d-flex.my-4 {
+    gap: 1px !important;   /* was 12px */
+  }
+
+  /* Reduce vertical gap between ALL cards */
+  .international-facilities .d-flex.my-4 > div > .d-flex {
+    margin-bottom: 1px !important;
+  }
+
+  /* Extra-tight for right column (Airport + Travel Desk) */
+  .international-facilities .d-flex.my-4 > div:last-child > .d-flex {
+    margin-bottom: 1px !important;
+  }
+  
+  
+  
+/* --- Simple Process: 2x2 Grid with Extra Large Images --- */
+
+.simple_process .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* Setup the 2-column container */
+.simple_process .category {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;     /* Allows 2nd row of cards */
+    justify-content: center !important;
+    gap: 10px !important;           /* Space between cards */
+    width: 100% !important;
+}
+
+/* Force 2 cards per line */
+.simple_process .card {
+    width: calc(50% - 10px) !important; 
+    height: auto !important;
+    min-height: 230px !important;   /* Increased height to fit larger images */
+    margin: 0 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* MAXIMIZE IMAGE SIZE */
+.simple_process .card-img-top {
+    height: 130px !important;       /* Significantly increased size */
+    width: 100% !important;
+    object-fit: contain !important; /* Keeps icons sharp and fully visible */
+    padding: 5px !important;        /* Minimal padding to maximize image area */
+    margin-top: 5px !important;
+}
+
+/* Adjust text area for 2-column layout */
+.simple_process .card-body {
+    padding: 8px 5px !important;
+    text-align: center !important;
+}
+
+.simple_process .card-body span.fs-5 {
+    font-size: 13px !important;
+    font-weight: 700 !important;
+    line-height: 1.2 !important;
+    display: block !important;
+}
+
+.simple_process .card-body p {
+    font-size: 10px !important;
+    line-height: 1.3 !important;
+    margin-top: 4px !important;
+}
+
+/* --- International Patient Section: NO CHANGES --- */
+.Enquire_now {
+    width: 100% !important;
+    margin-top: 25px !important;
+}
+
+.Enquire_now .card {
+    width: 100% !important; 
+    height: auto !important;
+}
+
+/* Global scroll bar fix */
+html, body {
+    overflow-x: hidden !important;
+}
+
+.embed-map-responsive {
+    width: 100% !important;
+    left: 0 !important;
+}
+/* --- International Patient Section Button Styling --- */
+
+.Enquire_now .pop_up_btn {
+    margin-top: 17px !important;    /* Adjust this value for more/less top padding */
+    /* margin-bottom: 10px !important;  */
+    width: 100% !important;          /* Keeps it full width on mobile */
+    font-weight: bold !important;
+    display: block !important;
+    font-size: 15px !important;
+}
+/* --- International Patient Section: Internal Padding Fix --- */
+
+.Enquire_now {
+    width: 100% !important;
+    /* This ensures the outer container doesn't grow or shrink */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.Enquire_now .card {
+    width: 100% !important;
+    /* Increase these values to move text away from the edges inward */
+    padding-left: 17px !important;  
+    padding-right: 17px !important; 
+    
+    /* CRITICAL: This keeps the card size identical while adding padding */
+    box-sizing: border-box !important; 
+    
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-radius: 0 !important; /* Optional: keeps it edge-to-edge if preferred */
+}
+
+/* Ensure the button stays within the new padding */
+.Enquire_now .pop_up_btn {
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+/* --- Force Increase Height of International Patient Section --- */
+
+
+
+.Enquire_now .card {
+    /* min-height ensures it is at least this tall, but can grow if needed */
+    min-height: 50px !important; 
+    
+    /* Increased vertical padding forces more height */
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    border-radius: 15px !important;
+    /* Ensures the card stays full width while growing vertically */
+    width: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important; /* Centers text vertically in the tall card */
+    box-sizing: border-box !important;
+}
+
+
+.Enquire_now h4.text-stat {
+    font-size: 19px !important; /* Increased from 18px */
+    line-height: 1 !important;
+    margin-bottom: 15px !important;
+}
+
+/* 2. Target the main description paragraph */
+.Enquire_now .card-text {
+    font-size: 16px !important; /* Increased from 13px */
+    line-height: 1.6 !important; /* More spacing for better readability */
+    margin-bottom: 20px !important;
+}
+
+/* 3. Target the 'Call' and 'Email' labels (the red text) */
+.Enquire_now .fs-6[style*="color: #B90808"] {
+    font-size: 16px !important; 
+    font-weight: bold !important;
+}
+
+/* 4. Target the actual phone numbers and email address */
+.Enquire_now span[style*="color: #474747"] {
+    font-size: 13px !important; 
+    line-height: 1.4 !important;
+}
+
+/* 5. Target the 'Enquire Now' Button text */
+.Enquire_now .pop_up_btn {
+    font-size: 17px !important; /* Makes the button text larger */
+    
+}
+.Our.Consultants {
+    margin-top: 10px !important;
+}
+
+.Our.Consultants .container.my-5 {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    padding-top: 0 !important;
+}
+
+/* 2. Fix the header area (Doctors text and View All button) */
+.Our.Consultants .d-flex.justify-content-between {
+    flex-direction: row !important;
+    align-items: center !important;
+    margin-bottom: 10px !important;
+}
+
+.Our.Consultants .fw-semibold.fs-5 {
+    font-size: 14px !important; /* Smaller 'Doctors' text */
+}
+
+.Our.Consultants .btn-primary[style*="width: 100px"] {
+    height: 32px !important;
+    width: 80px !important;
+    font-size: 12px !important;
+    padding: 0 !important;
+}
+
+/* 3. Reduce Section Heading Size */
+.Our.Consultants h2.mb-5 {
+    font-size: 20px !important; /* Smaller 'Our Consultants' heading */
+    margin-bottom: 25px !important;
+    text-align: center !important;
+}
+
+/* 4. Shrink the Doctor Cards and Images */
+.Our.Consultants .card_items {
+    padding: 10px !important;
+}
+
+.Our.Consultants .card_items img {
+    height: 12rem !important; /* Reduced from 20rem */
+    width: 12rem !important;  /* Keep it circular */
+    margin: 0 auto !important; /* Center the image */
+}
+
+/* 5. Reduce Font Sizes inside the card */
+.Our.Consultants .card-body h4 {
+    font-size: 16px !important; /* Doctor Name */
+    margin-top: 10px !important;
+}
+
+.Our.Consultants .card-body p {
+    font-size: 13px !important; /* Department Name */
+    margin-bottom: 10px !important;
+}
+
+/* 6. Center and shrink the View Details button */
+.Our.Consultants .card_items .btn {
+    margin-left: 0 !important;
+    display: block !important;
+    width: fit-content !important;
+    margin: 0 auto !important;
+    font-size: 13px !important;
+    padding: 6px 15px !important;
+}
+/* --- Rare Case and Infocus Section: Mobile Fix --- */
+
+/* 1. Reduce top margin and internal spacing */
+section[class*="Rare Case"] {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+}
+
+section[class*="Rare Case"] .container.my-5 {
+    margin-top: 5px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* 2. Reduce Font Sizes */
+section[class*="Rare Case"] .fs-6.text-danger {
+    font-size: 13px !important; /* Smaller 'Case Study' text */
+}
+
+section[class*="Rare Case"] h3.mt-2 {
+    font-size: 18px !important; /* Smaller 'Rare Case and Infocus' heading */
+    margin-bottom: 15px !important;
+}
+
+/* 3. Stack the two image divs vertically and reduce gap */
+section[class*="Rare Case"] .d-flex.gap-4 {
+    flex-direction: column !important; /* Stack images on top of each other */
+    gap: 17px !important; /* Reduced gap between the two images */
+}
+
+/* 4. Ensure images fit the screen properly */
+section[class*="Rare Case"] img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100% !important;
+    border-radius: 10px !important;
+}
+
+/* 5. Fix the bottom labels (Rare Case / Infocus) */
+section[class*="Rare Case"] .pt-4.justify-content-around {
+    padding-top: 10px !important;
+    flex-direction: row !important; /* Keep labels side by side */
+    justify-content: space-between !important;
+}
+
+section[class*="Rare Case"] .pt-4 h3 {
+    font-size: 15px !important; /* Significantly smaller bottom text */
+    font-weight: bold !important;
+    margin: 0 !important;
+}
+.rarecase_infocus_text h3 {
+display: none !important;
+
+}
+/* --- Explore All Image: Mobile Optimization --- */
+
+.Explore_all_image {
+    /* 1. Reduce top and bottom margin significantly */
+    margin-top: -40px !important;
+    margin-bottom: 10px !important;
+    
+    /* 2. Remove horizontal padding to allow edge-to-edge image if desired */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    
+    width: 100% !important;
+    overflow: hidden !important;
+}
+
+.Explore_all_image div {
+    width: 100% !important;
+}
+
+.Explore_all_image img {
+    /* 3. Ensure image scales perfectly to phone width */
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    
+    /* 4. Optional: If the image is very wide, this ensures it fits within the viewport */
+    max-width: 100vw !important;
+}
+/* --- Testimonials Section: Proper Mobile Fix --- */
+
+/* 1. Force Stack Layout */
+.What_Our_Patient_Says .container.d-flex {
+    display: flex !important;
+    flex-direction: column !important; /* Stack text on top, slider below */
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+}
+
+/* 2. Adjust Widths */
+.child_1, .child_2 {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* 3. Center and Resize Typography */
+.child_1 {
+    text-align: center !important;
+    margin-bottom: 25px !important;
+}
+
+.child_1 .d-flex.gap-2 {
+    justify-content: center !important; /* Center the 'Testimonials' label */
+}
+
+.What_Our_Patient_Says h2.fw-bold {
+    font-size: 22px !important;
+    line-height: 1.2 !important;
+    margin-top: 10px !important;
+}
+
+.What_Our_Patient_Says p.mb-3 {
+    font-size: 14px !important;
+    color: #555 !important;
+}
+
+/* 4. Fix the Carousel Cards */
+.What_Our_Patient_Says .card_items.radius {
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important; /* IMPORTANT: Let height be dynamic */
+    min-height: 280px !important; /* Ensure enough space for text */
+    margin: 0 !important;
+    border: 1px solid #f0f0f0 !important;
+    background: #fff !important;
+}
+
+/* 5. Shrink Internal Font Sizes */
+.What_Our_Patient_Says .card-body {
+    padding: 15px !important;
+}
+
+.What_Our_Patient_Says .card-text.p {
+    font-size: 13px !important;
+    line-height: 1.6 !important;
+    text-align: left !important; /* Keep the actual quote readable */
+}
+
+.What_Our_Patient_Says .card-footer {
+    padding: 10px 15px !important;
+}
+
+.What_Our_Patient_Says .card-footer .span {
+    font-size: 14px !important;
+    font-weight: 700 !important;
+    display: block !important;
+}
+
+/* 6. Button Styling */
+.What_Our_Patient_Says button {
+    margin: 15px auto 0 !important; /* Center button */
+    display: block !important;
+}
+
+/* 7. Hide the Quote Icon if it's too big */
+.comma.fa-quote-left {
+    font-size: 20px !important;
+}
+/* --- Fix Carousel Height & Navigation Buttons --- */
+
+/* 1. Force Owl Carousel to make all items equal height */
+.child_2-owl-carousel .owl-stage {
+    display: flex !important;
+}
+
+.child_2-owl-carousel .owl-item {
+    display: flex !important;
+    flex: 1 0 auto !important;
+}
+
+.child_2-owl-carousel .card_items {
+    height: 100% !important; /* Forces all cards to match the height of the tallest one */
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: space-between !important;
+    margin-bottom: 0 !important;
+}
+
+/* 2. Position Owl Nav Buttons properly on mobile */
+.child_2-owl-carousel .owl-nav {
+    position: absolute !important;
+    top: 50% !important;
+    width: 100% !important;
+    transform: translateY(-50%) !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    pointer-events: none !important; /* Allows clicking cards through the nav container */
+}
+
+.child_2-owl-carousel .owl-nav button {
+    pointer-events: all !important; /* Re-enables clicking for buttons */
+    background: rgba(25, 61, 145, 0.7) !important; /* Theme color with transparency */
+    color: white !important;
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 0 -15px !important; /* Pulls buttons slightly outside the card edge */
+}
+
+/* 3. Hide dots if they clutter the mobile screen */
+.child_2-owl-carousel .owl-dots {
+    margin-top: 15px !important;
+}
+/* --- Hide Owl Carousel Nav Buttons on Mobile --- */
+
+.child_2-owl-carousel .owl-nav {
+    display: none !important;
+}
+
+/* Optional: Ensure the dots are visible so users can still see there are more slides */
+.child_2-owl-carousel .owl-dots {
+    display: block !important;
+    margin-top: 10px !important;
+    text-align: center !important;
+}
+/* --- Center and Align Owl Dots Horizontally --- */
+
+/* 1. Ensure the dots container is a horizontal flexbox */
+.child_2-owl-carousel .owl-dots {
+    display: flex !important;
+    flex-direction: row !important; /* Forces horizontal alignment */
+    justify-content: center !important; /* Centers dots on the screen */
+    align-items: center !important;
+    gap: 8px !important;            /* Space between each dot */
+    margin-top: 20px !important;    /* Gap between cards and dots */
+    width: 100% !important;
+}
+
+/* 2. Style the dots to be more touch-friendly for mobile */
+.child_2-owl-carousel .owl-dot {
+    outline: none !important;
+}
+
+.child_2-owl-carousel .owl-dot span {
+    width: 10px !important;
+    height: 10px !important;
+    margin: 0 !important;          /* Reset margin to let flex gap handle spacing */
+    background: #d6d6d6 !important; /* Light gray for inactive dots */
+    display: block !important;
+    border-radius: 50% !important;
+    transition: all 0.3s ease !important;
+}
+
+/* 3. Style the active dot (the slide the user is currently seeing) */
+.child_2-owl-carousel .owl-dot.active span {
+    background: #193D91 !important; /* Theme blue for active dot */
+    width: 12px !important;         /* Slightly larger to show it's active */
+    height: 12px !important;
+}
+/* --- Remove All Gaps Between Owl Dots --- */
+
+.child_2-owl-carousel .owl-dots {
+    display: flex !important;
+    justify-content: center !important;
+    /* 1. Eliminate the flex gap */
+    gap: 2 !important; 
+    margin-top: 10px !important;
+}
+
+.child_2-owl-carousel .owl-dot {
+    /* 2. Remove default button padding/margins from the dot container */
+    padding: 0 !important;
+    margin: 0 !important;
+    border: none !important;
+    line-height: 0 !important; /* Forces the container to shrink to the span height */
+}
+
+.child_2-owl-carousel .owl-dot span {
+    /* 3. Remove all side margins from the visual dot */
+    margin: 0 !important; 
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 0 !important; /* Optional: Makes them square so they connect perfectly */
+    display: block !important;
+}
+
+/* 4. Color logic to distinguish the active slide */
+.child_2-owl-carousel .owl-dot span {
+    background: #d6d6d6 !important; /* Inactive color */
+}
+
+.child_2-owl-carousel .owl-dot.active span {
+    background: #193D91 !important; /* Active color */
+}
+
+.Recent_Blogs h2 {
+    font-size: 20px !important; /* Main title 'Recent Blogs' */
+    margin-bottom: 0 !important;
+}
+
+.Recent_Blogs .fw-semibold.fs-5 {
+    font-size: 14px !important; /* 'Keeping You Well' label */
+}
+
+/* 2. Shrink Individual Blog Titles */
+.Recent_Blogs_div h6 {
+    font-size: 15px !important; /* Blog post titles */
+    line-height: 1.3 !important;
+    margin-top: 10px !important;
+}
+
+/* 3. Reduce Metadata (Date and Category) */
+.Recent_Blogs .file {
+    font-size: 11px !important; 
+    margin-bottom: 5px !important;
+}
+
+.Recent_Blogs i.clock {
+    font-size: 11px !important;
+}
+
+/* 4. Shrink Description Text */
+.Recent_Blogs_div p {
+    font-size: 13px !important; /* Short summary text */
+    line-height: 1.5 !important;
+}
+
+/* 5. Scale down the buttons and Header button */
+.Recent_Blogs button {
+    font-size: 12px !important;
+    padding: 6px 15px !important;
+}
+
+.Recent_Blogs .d-flex.justify-content-between button {
+    padding: 5px 15px !important; /* Top 'View All' button */
+}
+
+/* 6. Adjust image height for better mobile layout */
+.Recent_Blogs_img {
+    height: 200px !important; /* Reduced from 300px to save space */
+    object-fit: cover;
+}
+.Recent_Blogs{
+  margin-top: 27px !important ;
+}
+/* --- Contact Us Section: Mobile Responsive Fix --- */
+
+/* 1. Stack the Form and Connect info vertically */
+.Get_In_Touch_With_Us .container > .d-flex {
+    flex-direction: column !important;
+    gap: 30px !important;
+}
+
+.Get_In_Touch_With_Us .form, 
+.Get_In_Touch_With_Us .connect {
+    width: 100% !important; /* Force full width on mobile */
+    padding: 20px !important;
+}
+
+/* 2. Reduce Header Font Sizes */
+.Get_In_Touch_With_Us h3.mb-3 {
+    font-size: 20px !important; /* 'Reach Out to Us' */
+}
+
+.Get_In_Touch_With_Us .form h4 {
+    font-size: 18px !important; /* 'Get In Touch With Us' */
+}
+
+/* 3. Reduce Paragraph and Label Font Sizes */
+.Get_In_Touch_With_Us .form p {
+    font-size: 14px !important;
+    line-height: 1.4 !important;
+}
+
+.Get_In_Touch_With_Us .fw-semibold.fs-5 {
+    font-size: 14px !important; /* 'Contact Us' red label */
+}
+
+/* 4. Shrink Form Inputs */
+.Get_In_Touch_With_Us .form-control {
+    font-size: 14px !important;
+    padding: 8px !important;
+}
+
+/* 5. Adjust 'Connect' Info section fonts */
+.Get_In_Touch_With_Us .connect h4 {
+    font-size: 18px !important;
+    margin-top: 10px !important;
+}
+
+.Get_In_Touch_With_Us .connect span {
+    font-size: 13px !important; /* Phone, Email, Address text */
+    word-break: break-all;      /* Prevents long emails from breaking layout */
+}
+
+/* 6. Resize Social Icons */
+.Get_In_Circle i {
+    font-size: 14px !important;
+}
+
+.Get_In_Touch_With_Us .rounded-circle {
+    padding: 6px !important;
+    width: 30px !important;
+    height: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 7. Center the Submit Button */
+.Get_In_Touch_With_Us button[type="submit"] {
+    width: 100% !important; /* Full width button is easier to tap on mobile */
+    font-size: 16px !important;
+    padding: 10px !important;
+}
+/* --- Fix Contact Us Label Alignment on Mobile --- */
+
+.Get_In_Touch_With_Us .d-flex.gap-1.align-content-center {
+    flex-direction: row !important; /* Forces it to stay in one line */
+    justify-content: flex-start !important; /* Aligns to the left */
+    align-items: center !important; /* Centers text and dot vertically */
+    margin-bottom: 5px !important; /* Clean spacing below the label */
+}
+
+.Get_In_Touch_With_Us .d-flex.gap-1.align-content-center p {
+    margin-bottom: 0 !important; /* Removes the default bottom margin */
+    font-size: 14px !important; /* Adjusted size for mobile */
+    white-space: nowrap !important; /* Prevents text from breaking into two lines */
+}
+
+.Get_In_Touch_With_Us .d-flex.gap-1.align-content-center span {
+    font-size: 14px !important;
+    line-height: 1 !important;
+    display: inline-block !important;
+}
+/* --- Footer: Reduce gap between three sections (Mobile) --- */
+
+.footer .main_footer {
+  flex-direction: column;
+}
+
+/* Left blue section full width */
+.footer_child_1 {
+  width: 100% !important;
+  padding-bottom: 15px !important;
+}
+
+/* THREE footer columns – reduced gap */
+.footer_child_1 > div {
+  flex-direction: column !important;
+  gap: 10px !important;   /* 🔥 REDUCED HERE */
+  margin-left: 0 !important;
+  padding: 0 16px;
+}
+
+/* Each footer column */
+.footer_child_1_1 {
+  width: 100%;
+  margin-bottom: 0 !important;
+}
+
+.footer_child_1_1 h3 {
+  font-size: 17px;
+  margin-bottom: 6px !important;
+}
+
+.footer_ul {
+  margin-bottom: 0 !important;
+}
+
+.footer_ul li {
+  margin-bottom: 4px !important;
+}
+
+.footer_ul li a {
+  font-size: 14px;
+}
+
+/* Map section */
+.embed-map-responsive {
+  width: 100%;
+  height: 220px;
+}
+
+/* Copyright */
+.footer span {
+  font-size: 14px !important;
+}
+.footer_child_1 > div[style*="display: flex"] {
+    flex-direction: column !important;
+    gap: 15px !important;       /* Reduces the 150px gap to 15px */
+    margin-left: 0 !important;   /* Removes the ms-5 shift */
+    padding-left: 20px !important;
+    padding-top: 20px !important;
+}
+
+/* 2. Remove the large top margin from the columns */
+.footer_child_1_1 {
+    margin-top: 15px !important; /* Reduced from 70px */
+    width: 100% !important;
+}
+
+/* 3. Tighten the Headers and HR lines */
+.footer_child_1_1 h3 {
+    font-size: 18px !important;
+    margin-left: 0 !important;   /* Removes the 33px shift */
+    margin-bottom: 5px !important;
+}
+
+.hr_footer {
+    width: 40px !important;      /* Smaller, tighter line */
+    margin-left: 0 !important;
+    margin-bottom: 10px !important;
+}
+
+/* 4. Reduce spacing between list items */
+.footer_ul li {
+    margin-bottom: 8px !important;
+}
+
+.footer_ul li a {
+    font-size: 14px !important;
+}
+/* Only affects mobile devices */
+@media (max-width: 576px) {
+  .excellence-section p {
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+  }
+  .excellence-section h3 {
+    font-size: 1.2rem !important;
+  }
+  .excellence-section h4 {
+    font-size: 14px !important;
+  }
+}
+
+}

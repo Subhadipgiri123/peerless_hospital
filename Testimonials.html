@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>sunrise_health_center</title>
+    <link rel="stylesheet" href="assetas/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assetas/js/bootstrap.bundle.min.js">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <!-- owl carousel cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+
+<body>
+    <div class="top_nav text-white py-2 ">
+        <div class="container small">
+
+            <div class="d-flex d-md-none flex-row justify-content-between align-items-center gap-2">
+
+
+                <a href="tel:+919038224000"
+                    class="text-white text-decoration-none d-flex align-items-center gap-1 border-end border-white border-3 pe-4 me-2"
+                    style="min-width: 0; height: 32px;">
+                    <i id="Ambulance" class="fa-solid fa-truck-medical" style="font-size: 18px; flex-shrink: 0;"></i>
+                    <span id="num" style="font-size: 11px; white-space: nowrap; display: flex; align-items: center;">+91
+                        90382
+                        24000</span>
+                </a>
+
+                <div class="dropdown ms-auto" style="color: #193d81;">
+                    <button class="btn btn-secondary dropdown-toggle bg-white text-dark rounded-pill fw-semibold"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                        style="padding: 3px 40px; font-size: 12px;">
+                        Location
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Kolkata</a></li>
+                        <li><a class="dropdown-item" href="#">Guwahati</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-none d-md-flex flex-wrap align-items-center gap-3">
+
+                <div class="d-flex align-items-center gap-3 border-end border-white pe-3 border-3">
+                    <a href="tel:03340111222" class="text-white text-decoration-none">
+                        <span><i class="fa-solid fa-phone-volume"></i> 033 4011 1222</span>
+                    </a>
+                    <a href="mailto:ph.enquiry@peerlesshospital.com" class="text-white text-decoration-none">
+                        <span><i class="fa-regular fa-envelope"></i> ph.enquiry@peerlesshospital.com</span>
+                    </a>
+                </div>
+
+                <div class="d-flex align-items-center gap-3 flex-grow-1 flex-md-grow-0">
+                    <div class="align-items-center border-end border-white pe-3 border-3 emergency">
+                        <a href="tel:+918981080008" class="text-white text-decoration-none">
+                            <span><strong>Emergency:</strong> +91 89810 80008</span>
+                        </a>
+                    </div>
+                    <a href="tel:+919038224000" class="text-white text-decoration-none">
+                        <span><i class="fa-solid fa-truck-medical"></i> +91 90382 24000 / +91 90382 25000</span>
+                    </a>
+                </div>
+
+                <div class="dropdown align-items-end ms-auto" style="color: #193d81;">
+                    <button
+                        class="btn btn-secondary dropdown-toggle bg-white text-dark rounded-pill px-5 py-1 fw-semibold"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Location
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="#">Kolkata</a></li>
+                        <li><a class="dropdown-item" href="#">Guwahati</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container py-1">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.webp" alt="Logo" width="230" height="35"
+            class="d-inline-block align-text-top main_logo">
+        </a>
+        <button class="togeler_focus  navbar-toggler" style="border: none; padding: 6px 8px; border-radius: 5px;"
+          type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="nav_item collapse navbar-collapse ms-5" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                About Us
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="about_us_1.html">Company Overview</a></li>
+                <li><a class="dropdown-item" href="about_us_2.html">Misson & Vision</a></li>
+                <li><a class="dropdown-item" href="about_us_3.html">Career</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Patients
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="Patient_Guide.html">Patient Guide</a></li>
+                <li><a class="dropdown-item" href="International_Patients.html">International Patients</a></li>
+                <li><a class="dropdown-item" href="Testimonials.html">Testimonials</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="our_doctors.html">Our Doctors</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Departments
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink" >
+                <li><a class="dropdown-item" href="Anesthesiology.html">Anesthesiology</a></li>
+                <li><a class="dropdown-item" href="Cardiology.html">Cardiology</a></li>
+                <li><a class="dropdown-item" href="Paediatrics and Neonatology.html">Paediatrics and Neonatology </a></li>
+                <li><a class="dropdown-item" href="Radiology.html">Radiology  </a></li>
+                <li><a class="dropdown-item" href="Dietetics.html">Dietetics  </a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Services
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="our_clinic.html">Our Clinics</a></li>
+                <li><a class="dropdown-item" href="Day_Care_Units.html">Day Care Units</a></li>
+                <li><a class="dropdown-item" href="Operation_Theatre.html">Modular Operation Theatre</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Academics
+              </a>
+              <ul class="dropdown-menu bg-white" aria-labelledby="navbarDarkDropdownMenuLink">
+                <li><a class="dropdown-item" href="Medical .html">Medical</a></li>
+                <li><a class="dropdown-item" href="Paramedical.html"> Paramedical </a></li>
+                <li><a class="dropdown-item" href="Hospital_Administration.html">Hospital Administration</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="galary.html">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blogs
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact_us.html">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="about-us position-relative mb-5">
+        <div class="">
+            <img src="images/37.webp" style="width: 100%; height: 250px; object-fit: cover;" alt="About Us Banner">
+        </div>
+
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
+            style="background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0) 100%);">
+
+            <div class="container ps-5">
+                <div class="text-white">
+                    <h1 class="fw-bold m-0" style="font-size: 2.5rem;">Testimonials</h1>
+
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb mb-0">
+                            <li class="breadcrumb-item">
+                                <a href="index.html" class="text-white text-decoration-none">Home</a>
+                            </li>
+                            <li class="breadcrumb-item active text-white" aria-current="page">
+                                Patient
+                            </li>
+                        </ol>
+                    </nav>
+
+                    <p class="mt-2 fw-semibold text-uppercase" style="letter-spacing: 1px;">
+                       Testimonials
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+   <section class="testimonial-section py-5">
+    <div class="container-fluid px-md-5"> <div class="row justify-content-center">
+            <div class="col-12 col-xl-11"> <div class="owl-carousel child_2-owl-carousel owl-theme">
+                    
+                    <div class="item">
+                        <div class="card card_items shadow-sm border-0 radius" style="height: 22rem;">
+                            <div class="card-header bg-transparent header_border border-0">
+                                <i class="comma fa-solid fa-quote-left" style="color: #162b60; font-size: 2rem;"></i>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text p">Excellent service from the staffs of peerless, bills are much lower than estimated for my sister's flexor longus tendon surgery...</p>
+                            </div>
+                            <div class="card-footer footer_border border-0 bg-transparent">
+                                <span class="span fw-bold">Mr. Arijit Saha</span>
+                                <p class="mb-0" style="color: #7b7979;">G-map Review</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card card_items shadow-sm border-0 radius" style="height: 22rem;">
+                            <div class="card-header bg-transparent header_border border-0">
+                                <i class="comma fa-solid fa-quote-left" style="color: #162b60; font-size: 2rem;"></i>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text p">My wife also had treatment in July 2015 under Dr. R R Roy(Gynae). This time, it is my turn. In future also, I shall come for treatment...</p>
+                            </div>
+                            <div class="card-footer footer_border border-0 bg-transparent">
+                                <span class="span fw-bold">Mr. Partha Pratim Roy</span>
+                                <p class="mb-0" style="color: #7b7979;">Patients</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card card_items shadow-sm border-0 radius" style="height: 22rem;">
+                            <div class="card-header bg-transparent header_border border-0">
+                                <i class="comma fa-solid fa-quote-left" style="color: #162b60; font-size: 2rem;"></i>
+                            </div>
+                            <div class="card-body">
+                                <p class="card-text p">An outstanding experience. Difficult to believe medical services can rise over everything to render humane, tender and ethical flavour...</p>
+                            </div>
+                            <div class="card-footer footer_border border-0 bg-transparent">
+                                <span class="span fw-bold">Mr. Surajit Kar Purkayastha</span>
+                                <p class="mb-0" style="color: #7b7979;">DG & IGP, CID, West Bengal</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="footer">
+        <div class=" main_footer d-flex ">
+            <div class="footer_child_1 pb-5" style="width: 75%; height: auto; background-color: #162b60;">
+                <div class="  ms-5 " style="display: flex; gap: 150px;">
+                    <div class="footer_child_1_1">
+                        <h3 class="">Patients Info</h3>
+                        <hr class="hr_footer ">
+                        <ul type="none" class="footer_ul">
+                            <li><a href="#">Find a Doctor</a></li>
+                            <li><a href="#">Inpatient Payment</a></li>
+                            <li><a href="#">Reports Downloadt</a></li>
+                            <li><a href="#">Enquiry</a></li>
+                            <li><a href="#">Feedback</a></li>
+                            <li><a href="#">International Patient</a></li>
+                            <li><a href="#">Organ Transplant Compliance</a></li>
+
+                        </ul>
+
+
+                    </div>
+                    <div class="footer_child_1_1">
+                        <h3>Other Links</h3>
+                        <hr class="hr_footer">
+                        <ul type="none" class="footer_ul">
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Corporate Tie-up</a></li>
+                            <li><a href="#">Career</a></li>
+                            <li><a href="#">Appointment Request</a></li>
+                            <li><a href="#">News & Media</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div class="footer_child_1_1 ">
+                        <h3>Resources </h3>
+                        <hr class="hr_footer">
+                        <ul type="none" class="footer_ul">
+                            <li><a href="#">Bio Medical Waste Report</a></li>
+                            <li><a href="#">Stent Prices</a></li>
+                            <li><a href="#">Knee Implant Price</a></li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="embed-map-responsive">
+                    <div class="embed-map-container"><iframe class="embed-map-frame" frameborder="0" scrolling="no"
+                            marginheight="0" marginwidth="0"
+                            src="https://maps.google.com/maps?width=200&height=320&hl=en&q=Peerless%20hospital%20kolkata&t=p&z=10&ie=UTF8&iwloc=B&output=embed"></iframe><a
+                            href="https://sprunkiretake.net"
+                            style="font-size:2px!important;color:gray!important;position:absolute;bottom:0;left:0;z-index:1;max-height:1px;overflow:hidden">Sprunki</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div style="width: 100%; padding: 15px; text-align: center; background-color: #1c2b47;">
+            <span style="color: white; font-size: 18px;">Copyright© 2025 Peerless Hospital</span>
+        </div>
+        </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+
+  <!-- Owl Carousel -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".child_2-owl-carousel").owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            responsive: {
+                0: { items: 1 },
+                600: { items: 2 },
+                1000: { items: 2 }
+            }
+        });
+    });
+</script>
+</body>
+
+</html>
